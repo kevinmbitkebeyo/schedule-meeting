@@ -1,17 +1,21 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: "schedule-meeting-36852.firebaseapp.com",
-  projectId: "schedule-meeting-36852",
-  storageBucket: "schedule-meeting-36852.appspot.com",
-  messagingSenderId: "1099030465255",
-  appId: "1:1099030465255:web:b16f88916322bc206b3042"
+  authDomain: "meeting-ab84d.firebaseapp.com",
+  projectId: "meeting-ab84d",
+  storageBucket: "meeting-ab84d.appspot.com",
+  messagingSenderId: "411766154539",
+  appId: "1:411766154539:web:71bc318df509c24e52916e",
 };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
+
